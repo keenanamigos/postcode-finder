@@ -23,6 +23,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
   
 	<!-- External JS -->
-	<script type="text/javascript" src="postcode.js">
+	<script type="text/javascript" src="postcode.js"></script>
   </body>
 </html>
