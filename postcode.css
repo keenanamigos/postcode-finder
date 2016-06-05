@@ -1,0 +1,10 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("images/rolling-hills.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
