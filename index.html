@@ -8,13 +8,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-	<!-- External CSS -->
-	<link rel="stylesheet" href="postcode.css">
+		<!-- External CSS -->
+		<link rel="stylesheet" href="postcode.css">
   </head>
   <body>
     <div class="container">
 		<div class="row">
-		
+			<h1 class="white">Postcode Finder</h1>
+			<form>
+				<fieldset class="form-group">
+					<label class="white" for="address">Enter a partial address to get the postal code</label>
+					<input type="text" class="form-control" name="address" id="address" placeholder="Enter a partial address">
+				</fieldset>
+				<button id="find" class="btn btn-primary">Submit</button>
+			</form>
+			
+			<div id="successMessage"></div> <!-- Produces the proper post code when triggered -->
+			<div id="errorMessage"></div> <!-- Produces an error message when triggered -->
 		</div>
 	</div>
 
@@ -22,7 +32,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
   
-	<!-- External JS -->
-	<script type="text/javascript" src="postcode.js"></script>
+		<!-- External JS -->
+		<script type="text/javascript" src="postcode.js"></script>
   </body>
 </html>
