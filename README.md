@@ -5,5 +5,3 @@ Example Input: <br />
 109 Birdwood Road Cambridge UK <br />
 1500 W. Kennedy Rd. Lake Forest, IL <br />
 Exeter, NH <br />
-
-*Error message doesn't trigger on completely blank input
